@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.forms {
+  display: flex;
+  flex-grow: 0.7;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+.forms input[type="search"] {
+  width: 90%;
+}
+.forms span,
+input {
+  padding: 15px;
+}
+.forms span {
+  color: grey;
+}
+.forms input,
+button {
+  border: none;
+  background-color: #f2f2f2;
+  outline: none;
+}
+.forms button {
+  background-color: black;
+  color: white;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+.signup,
+.signin {
+  padding: 20px;
+  font-size: 24px;
+}
+.siteicon {
+  font-weight: bold;
+  font-size: 24px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .signers {
+    order: 2;
+  }
+  .forms {
+    order: 3;
+    flex-grow: 3;
+    margin-top: 20px;
+  }
+  .forms input[type="search"] {
+    width: 90%;
+  }
+}

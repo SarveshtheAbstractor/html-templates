@@ -65,4 +65,11 @@ button {
   .forms input[type="search"] {
     width: 90%;
   }
+  .signup,
+  .signin {
+    font-size: 12px;
+  }
+  .siteicon {
+    font-size: 12px;
+  }
 }
